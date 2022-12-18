@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://png.pngtree.com/background/20210712/original/pngtree-modern-double-colors-neon-lights-on-brick-background-picture-image_1170045.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+}
+#card h4{
+    margin-top: 5px;
+    font-size: 20px;
+}
+#card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 320px;
+    padding: 10px 0px;
+    border: solid black 2px;
+  background-color:#dadada ;
+    border-radius: 5%;
+}
+#card p{
+   
+    padding: 0 40px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+#img{
+    margin-top: -5%;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: black solid 1px;
+}
+#img img{
+    width: 100%;
+    height: 100%;
+}
+#card button{
+    padding: 15px 25px;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+#cards{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   width: 100%;
+   width: 100%;
+   margin-top: 100px;
+
+  
+   
+}
+#Strangers{
+    color: rgb(206, 26, 26);
+}
+#Friends{
+    color: rgb(16, 205, 16);
+}
+.Strangers{
+    background-color: rgb(82, 82, 231);
+}
+.Friends{
+    background-color: rgb(228, 60, 65);
+}
+
